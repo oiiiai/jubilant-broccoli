@@ -8,6 +8,7 @@ on:
 jobs:
 
   greeting:
+    name: Hello World
     runs-on: ubuntu-latest
     permissions:
       issues: write
