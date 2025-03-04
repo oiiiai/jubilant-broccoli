@@ -35,7 +35,7 @@ jobs:
 
     
   changeApproval:
-    name: ServiceNow Change Approval 2 Update
+    name: ServiceNow Change Approval
     needs: build
     runs-on: ubuntu-latest
 
