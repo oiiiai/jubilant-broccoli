@@ -58,7 +58,7 @@ jobs:
           abortOnChangeStepTimeout: true
       - name: Output of Change Creation
         run: echo "change-request-number = ${{ steps.create.outputs.change-request-number }} and change-request-sys-id = ${{ steps.create.outputs.change-request-sys-id }} " >> $GITHUB_OUTPUT
-    
+
   deploy:
     name: Deploy
     needs: changeApproval
